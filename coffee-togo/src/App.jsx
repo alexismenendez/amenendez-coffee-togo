@@ -13,8 +13,10 @@ function App() {
 
   return (
     <div className='App'>
-      <Header handleButtonClick={handleButtonClick}/>
-      {activeComponent === "Landing" && <Landing />}
+      <div className='content'>
+        <Header handleButtonClick={handleButtonClick}/>
+        {activeComponent === "Landing" && <Landing />}
+      </div>
     </div>
   );
 }

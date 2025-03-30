@@ -5,7 +5,16 @@
 }
 
 .header h1 {
-  flex-grow: 2;
+  flex-grow: 1;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  min-width: 100%;
+  min-height: 871px;
+  background-image: url(./assets/bg1.jpg);
+  background-size: cover;
 }
 
 .landing {
