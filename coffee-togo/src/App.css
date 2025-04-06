@@ -1,16 +1,33 @@
-/* LANDING CSS/////////////////////////// */
-.header {
-  display: flex;
+.App {
   width: 100%;
 }
 
-.header h1 {
-  flex-grow: 1;
+/* LANDING CSS/////////////////////////// */
+.header {
+  display: flex;
+  margin-inline: auto;
+  min-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+  max-height: 100px;
+  background-color: black;
+  margin: 0%;
+}
+
+.header i {
+  font-size: 25px;
+  padding: 1%;
+}
+
+.header img {
+  max-width: 50%;
+  height: auto;
 }
 
 .content {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   min-width: 100%;
   min-height: 871px;
   background-image: url(./assets/bg1.jpg);
